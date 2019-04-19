@@ -376,7 +376,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   display: block;
-  background-image: url(../images/logo.svg);
+  background-image: url(logo.svg);
   background-repeat: no-repeat;
   width: 225px;
   height: 88px;
@@ -542,7 +542,7 @@ body {
 /* line 283, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
 .photo {
   background: #efade6;
-  background-image: url(../images/yiyun.jpg);
+  background-image: url(yiyun.jpg);
   background-size: cover;
   height: 220px;
   width: 220px;
