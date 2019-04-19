@@ -481,10 +481,7 @@ body {
   /* line 207, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
   .port-list .list {
     flex-direction: row;
-    justify-content: space-around;
-    align-content: space-around;
-    width: 50%;
-	margin: 2rem auto;
+    justify-content: space-around;align-content: space-around;width: 50%;margin: 2rem auto;
     /* line 214, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
     .port-list .list a {
       color: #fff; }
