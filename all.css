@@ -1,0 +1,585 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+       v2.0 | 20110126
+       License: none (public domain)
+    */
+/* line 6, ../../Users/kou/Desktop/yiyun2019/project/css/_reset.scss */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 96, ../../Users/kou/Desktop/yiyun2019/project/css/_reset.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+/* line 110, ../../Users/kou/Desktop/yiyun2019/project/css/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 114, ../../Users/kou/Desktop/yiyun2019/project/css/_reset.scss */
+ol,
+ul {
+  list-style: none; }
+
+/* line 119, ../../Users/kou/Desktop/yiyun2019/project/css/_reset.scss */
+blockquote,
+q {
+  quotes: none; }
+
+/* line 124, ../../Users/kou/Desktop/yiyun2019/project/css/_reset.scss */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+/* line 132, ../../Users/kou/Desktop/yiyun2019/project/css/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 1, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* line 9, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 13, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+/* line 17, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+audio, canvas, video {
+  display: inline-block; }
+
+/* line 21, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 26, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+[hidden] {
+  display: none; }
+
+/* line 31, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+a:focus {
+  outline: thin dotted; }
+
+/* line 34, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+a:active, a:hover {
+  outline: 0; }
+
+/* line 39, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 43, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+b, strong {
+  font-weight: bold; }
+
+/* line 47, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+dfn {
+  font-style: italic; }
+
+/* line 51, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/* line 57, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+mark {
+  background: yellow;
+  color: black; }
+
+/* line 62, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/* line 67, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+pre {
+  white-space: pre-wrap; }
+
+/* line 71, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/* line 75, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+small {
+  font-size: 80%; }
+
+/* line 79, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 86, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em; }
+
+/* line 94, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 98, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* line 103, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 107, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+figure {
+  margin: 0; }
+
+/* line 111, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 117, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+legend {
+  border: 0;
+  padding: 0; }
+
+/* line 122, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+/* line 128, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+button, input {
+  line-height: normal; }
+
+/* line 132, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+button, select {
+  text-transform: none; }
+
+/* line 136, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+button, html input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 142, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 148, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+/* line 153, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 157, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+  /* line 162, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+  input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+
+/* line 168, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 173, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+/* line 178, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 183, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+.clearfix {
+  zoom: 1; }
+  /* line 184, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+  .clearfix:before {
+    content: "";
+    display: table; }
+  /* line 188, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 196, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+html {
+  font-family: sans-serif;
+  line-height: 1;
+  font-size: 16px; }
+
+/* line 202, ../../Users/kou/Desktop/yiyun2019/project/css/_resett.scss */
+a {
+  text-decoration: none;
+  color: black; }
+
+/**/
+/* line 33, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+body {
+  /* 画像ファイルの指定 */
+  background-image: url();
+  /* 画像を常に天地左右の中央に配置 */
+  background-position: center center;
+  /* 画像をタイル状に繰り返し表示しない */
+  background-repeat: no-repeat;
+  /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+  background-attachment: fixed;
+  /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+  background-size: cover;
+  /* 背景画像が読み込まれる前に表示される背景のカラー */
+  background-color: #A9C9FF;
+  background-image: linear-gradient(120deg, #A9C9FF 0%, #FFBBEC 100%);
+  /**/
+  font-family: Futura, 'Century Gothic', 游ゴシック体, YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 游ゴシック, 'Yu Gothic', メイリオ, Meiryo, sans-serif; }
+
+/* line 59, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.wrap {
+  margin: 0 auto;
+  text-align: center;
+  width: 100vw;
+  height: 100vh; }
+
+/* line 66, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.nav {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1.5rem; }
+
+/* line 76, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.logo a {
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  background-image: url(../images/logo.svg);
+  background-repeat: no-repeat;
+  width: 225px;
+  height: 88px;
+  margin: 0 15em; }
+
+/* line 88, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.menu {
+  padding-right: 3rem; }
+  /* line 91, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    /* line 97, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+    .menu ul span {
+      color: #fff;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+      font-size: 22px;
+      padding: 0 2rem; }
+    /* line 105, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+    .menu ul a {
+      display: block;
+      padding: 0 .2rem; }
+
+/* line 114, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.menu li a:hover span {
+  /*border-bottom: .4rem #fff solid;
+	padding-bottom: 5px;*/
+  background-color: #efade6;
+  transition: all .3s; }
+
+/*-------------------*/
+/* line 124, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.intro {
+  margin: 20rem 0 28rem 0; }
+  /* line 127, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+  .intro h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin: 8rem;
+    line-height: 1.5; }
+  /* line 134, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+  .intro a {
+    background: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    color: #EFADE6;
+    border: 2px solid #FBC2FF; }
+
+/* line 143, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.intro a:hover {
+  opacity: 0.9; }
+
+/**/
+/* line 152, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.portfolio {
+  background: #fff;
+  max-width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 2rem;
+  color: #EFADE6; }
+
+/* line 165, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.port-link h2 {
+  font-size: 2rem;
+  padding-top: .5rem; }
+
+/* line 170, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.port-link p {
+  padding: 1rem; }
+
+/* line 174, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.port-link ul {
+  display: flex;
+  justify-content: center;
+  padding: 2rem; }
+  /* line 179, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+  .port-link ul li {
+    flex-direction: row;
+    font-size: 1.2rem;
+    padding: 0 2rem;
+    color: #EFADE6; }
+  /* line 188, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+  .port-link ul a {
+    font-size: 1.2rem;
+    padding: 2rem;
+    color: #EFADE6; }
+
+/* line 196, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.port-list {
+  display: flex;
+  flex-wrap: wrap; }
+
+/* line 201, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.port-list {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 20rem; }
+  /* line 207, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+  .port-list .list {
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 40%;
+    margin: 1rem auto; }
+    /* line 214, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+    .port-list .list a {
+      color: #fff; }
+
+/* line 220, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.link {
+  border-radius: 1rem;
+  padding: 8rem 1.5rem;
+  font-size: 2rem;
+  color: #fff;
+  background: #E2CEF7; }
+
+/* line 230, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.list:hover {
+  opacity: 0.8; }
+
+/* line 234, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.list:nth-child(2) {
+  background: #D3CFF9; }
+
+/* line 238, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.list:nth-child(3) {
+  background: #D3CFF9; }
+
+/**/
+/* line 244, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.about {
+  color: #EFADE6; }
+  /* line 248, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+  .about h5 {
+    font-size: 2rem;
+    padding: 3rem;
+    color: #FFE4F7; }
+  /* line 254, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+  .about h2 {
+    font-size: 2rem;
+    padding-bottom: 3rem; }
+
+/**/
+/* line 265, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.about-list {
+  padding-bottom: 2rem;
+  font-size: 1.2rem; }
+  /* line 269, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+  .about-list h3 {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 3px; }
+  /* line 276, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+  .about-list p {
+    line-height: 1.8;
+    text-align: center; }
+
+/* line 283, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.photo {
+  background: #efade6;
+  background-image: url(../images/yiyun.jpg);
+  background-size: cover;
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  margin: .5rem auto; }
+
+/**/
+/* line 295, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.sns {
+  display: flex;
+  margin: 2rem auto 1rem auto;
+  width: 15%; }
+
+/* line 301, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.sns-list {
+  flex-direction: row;
+  margin: 0 auto; }
+
+/* line 306, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.fab,
+.fas {
+  color: #fff;
+  font-size: 2.5rem; }
+
+/* line 312, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.sns-list i:hover {
+  opacity: 0.8; }
+
+/**/
+/* line 319, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+.footer {
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  color: #fff; }
+  /* line 324, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
+  .footer img {
+    padding-top: 1rem;
+    padding-bottom: 2rem; }
+
+/*# sourceMappingURL=all.css.map */

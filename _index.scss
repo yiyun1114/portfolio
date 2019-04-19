@@ -1,0 +1,330 @@
+$pc: 1920px; // PC
+$tab: 768px; // タブレット
+$iphone: 375px; // スマホ
+
+@mixin pc {
+	@media (max-width: ($pc)) {
+		@content;
+	}
+}
+
+@mixin tab {
+	@media (max-width: ($tab)) {
+		@content;
+	}
+}
+
+@mixin iphone {
+	@media (max-width: ($iphone)) {
+		@content;
+	}
+}
+
+@mixin hide-text {
+	text-indent: 110%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+
+
+/**/
+
+body {
+	/* 画像ファイルの指定 */
+	background-image: url();
+
+	/* 画像を常に天地左右の中央に配置 */
+	background-position: center center;
+
+	/* 画像をタイル状に繰り返し表示しない */
+	background-repeat: no-repeat;
+
+	/* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+	background-attachment: fixed;
+
+	/* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+	background-size: cover;
+
+	/* 背景画像が読み込まれる前に表示される背景のカラー */
+	background-color: #A9C9FF;
+	background-image: linear-gradient(120deg, #A9C9FF 0%, #FFBBEC 100%);
+
+	/**/
+	font-family: Futura, 'Century Gothic', 游ゴシック体, YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 游ゴシック, 'Yu Gothic', メイリオ, Meiryo, sans-serif;
+
+}
+
+
+.wrap {
+	margin: 0 auto;
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.nav {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 1.5rem;
+
+}
+
+.logo {
+	a {
+		@include hide-text;
+		background-image: url(../images/logo.svg);
+		background-repeat: no-repeat;
+		width: 225px;
+		height: 88px;
+		margin: 0 15em;
+	}
+}
+
+
+
+.menu {
+	padding-right: 3rem;
+
+	ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+
+		span {
+			color: #fff;
+			font-weight: 400;
+			letter-spacing: 1.5px;
+			font-size: 22px;
+			padding: 0 2rem;
+		}
+
+		a {
+			display: block;
+			padding: 0 .2rem;
+		}
+
+	}
+}
+
+
+.menu li a:hover span {
+	/*border-bottom: .4rem #fff solid;
+	padding-bottom: 5px;*/
+	background-color: #efade6;
+	transition: all .3s;
+}
+
+
+
+/*-------------------*/
+.intro {
+	margin: 20rem 0 28rem 0;
+
+	h2 {
+		color: #fff;
+		font-size: 2rem;
+		margin: 8rem;
+		line-height: 1.5;
+	}
+
+	a {
+		background: #fff;
+		padding: 1rem 3rem;
+		font-size: 1.5rem;
+		color: #EFADE6;
+		border: 2px solid #FBC2FF;
+	}
+}
+
+.intro a:hover {
+	opacity: 0.9;
+}
+
+
+
+
+/**/
+
+.portfolio {
+	background: #fff;
+	max-width: 90%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 2rem;
+	border-radius: 2rem;
+	color: #EFADE6;
+}
+
+.port-link {
+
+
+	h2 {
+		font-size: 2rem;
+		padding-top: .5rem;
+	}
+
+	p {
+		padding: 1rem;
+	}
+
+	ul {
+		display: flex;
+		justify-content: center;
+		padding: 2rem;
+
+		li {
+			flex-direction: row;
+
+			font-size: 1.2rem;
+			padding: 0 2rem;
+			color: #EFADE6;
+
+		}
+
+		a {
+			font-size: 1.2rem;
+			padding: 2rem;
+			color: #EFADE6;
+		}
+	}
+}
+
+.port-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.port-list {
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 20rem;
+
+
+	.list {
+		flex-direction: row;
+		justify-content: space-around;
+		align-content: space-around;
+		width: 40%;
+		margin: 1rem auto;
+
+		a {
+			color: #fff;
+		}
+	}
+}
+
+.link {
+	border-radius: 1rem;
+	padding: 8rem 1.5rem;
+	font-size: 2rem;
+	color: #fff;
+
+	background: #E2CEF7;
+
+}
+
+.list:hover {
+	opacity: 0.8;
+}
+
+.list:nth-child(2) {
+	background: #D3CFF9;
+}
+
+.list:nth-child(3) {
+	background: #D3CFF9;
+}
+
+/**/
+
+.about {
+	color: #EFADE6;
+
+
+	h5 {
+		font-size: 2rem;
+		padding: 3rem;
+		color: #FFE4F7;
+	}
+
+	h2 {
+		font-size: 2rem;
+		padding-bottom: 3rem;
+	}
+
+}
+
+/**/
+
+
+
+.about-list {
+	padding-bottom: 2rem;
+	font-size: 1.2rem;
+
+	h3 {
+		font-size: 2rem;
+		padding-bottom: 1.5rem;
+		font-weight: 700;
+		letter-spacing: 3px;
+	}
+
+	p {
+		line-height: 1.8;
+		text-align: center;
+	}
+}
+
+
+.photo {
+
+	background: #efade6;
+	background-image: url(../images/yiyun.jpg);
+	background-size: cover;
+	height: 220px;
+	width: 220px;
+	border-radius: 50%;
+	margin: .5rem auto;
+}
+
+/**/
+.sns {
+	display: flex;
+	margin: 2rem auto 1rem auto;
+	width: 15%;
+}
+
+.sns-list {
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+.fab,
+.fas {
+	color: #fff;
+	font-size: 2.5rem;
+}
+
+.sns-list i:hover {
+	opacity: 0.8;
+}
+
+
+/**/
+
+.footer {
+	padding-top: 0rem;
+	padding-bottom: 2rem;
+	color: #fff;
+
+	img {
+		padding-top: 1rem;
+		padding-bottom: 2rem;
+	}
+
+}
+
