@@ -433,7 +433,7 @@ body {
         padding: .5rem; } }
 
 /* line 148, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
-.menu li a:hover span {
+.menu li a:hover span, .menu li a:active span {
   /*border-bottom: .4rem #fff solid;
 	padding-bottom: 5px;*/
   background-color: #efade6;
@@ -482,7 +482,7 @@ body {
       border: 2px solid #FBC2FF; } }
 
 /* line 210, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
-.intro a:hover {
+.intro a:hover, .intro a:active {
   opacity: 0.9; }
 
 /**/
