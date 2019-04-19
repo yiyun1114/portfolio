@@ -483,8 +483,8 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-content: space-around;
-    width: 40%;
-    margin: 1rem auto; }
+    width: 50%;
+	margin: 2rem auto;
     /* line 214, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
     .port-list .list a {
       color: #fff; }
@@ -527,7 +527,7 @@ body {
 /* line 265, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
 .about-list {
   padding-bottom: 2rem;
-  font-size: 0.8rem; }
+  font-size: 1rem; }
   /* line 269, ../../Users/kou/Desktop/yiyun2019/project/css/_index.scss */
   .about-list h3 {
     font-size: 2rem;
