@@ -376,7 +376,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   display: block;
-  background-image: url(../logo.svg);
+  background-image: url(logo.svg);
   background-repeat: no-repeat;
   width: 225px;
   height: 88px;
